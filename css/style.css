@@ -1,0 +1,127 @@
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+html, body{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+body{
+    /* overflow-x: hidden; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mobile-container {
+  margin: auto;
+  background-size: auto;
+}
+.all_bg{
+  height: 900px;
+  /* background: url('./../img/img13.jpg') no-repeat center center / cover; */
+  background-image: linear-gradient(rgba(52, 142, 158, 0.3),rgba(31, 33, 139, 0.7)), url('./../img/img13.jpg');
+  /* opacity: 0.6; */
+}
+.logo{
+  float: left;
+  margin-right:33%;
+  padding-top: 10px;
+  color: white;
+  /* text-align: center; */
+}
+/* .container3{
+  margin: 0px;
+  padding: 0px;
+  background: transparent;
+  height: 100px;
+  font-size: 10px;
+}
+.container4{
+  float: left;
+  margin-right:50%;
+  padding-top: 10px;
+  color: white;
+} */
+.container2{
+  padding-top:30px;
+  color: white;
+}
+#navbar {
+  /* overflow: hidden; */
+  background-image:linear-gradient(rgba(44, 186, 211, 0.3),rgba(20, 23, 230, 0.7) );
+}
+
+#navbar a {
+  /* float: left; */
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover{
+  background-color: rgb(91, 67, 110);
+  color: black;
+  display:block;
+}
+
+#navbar a.active {
+  background-color: #ddd;
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.dropdown-item{
+  color:black;
+}
+
+.col_here{
+  height: 400px;
+  width: auto;
+  padding: 90px;
+  background-color: rgb(23, 23, 141);
+  color: #ddd;
+}
+.col_here02{
+  width: 700px;
+  float: right;
+}
+.ser{
+  padding: 60px;
+}
+.ser_img_1{
+  width: 350px;
+  margin-right: 65px;
+}
+
+@media (max-width: 590px){
+  .all_bg{
+    height: 500px;
+  background-image: linear-gradient(rgba(52, 142, 158, 0.3),rgba(31, 33, 139, 0.7)), url('./../img/img13.jpg');
+    /* opacity: 0.6; */
+  }
+  .col_here{
+    height: 600px;
+    width: auto;
+    padding: 50px;
+    text-align:center;
+    background-color:rgb(23, 23, 141);
+    color: #ddd;
+  }
+  .col_here02{
+    width: auto;
+    float: none;;
+  }
+}
